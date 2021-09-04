@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,800&display=swap');
+
+body,html{
+        overflow-x: hidden;
+}
+*{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Fira Sans', sans-serif;
+}
+.services-technology{
+    position: relative;
+    width: 100%;
+    /* height: auto; */
+}
+.servicesMain-Head{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100vh;
+    z-index: 50;
+    text-transform: capitalize;
+}
+.servicesMain-Head h2{
+    font-size: 3.8rem;
+    width: 60%;
+}
+.servicesMain-Head p{
+    font-size: 1.2rem;
+    margin-top: 10rem;
+    margin-right: 20rem;
+    margin-bottom: 2rem;
+}
+.serviceslanding-title{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 50;
+    text-transform: capitalize;
+}
+.serviceslanding-title h2{
+    font-size: 3.8rem;
+}
+.serviceslanding-title p{
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+
