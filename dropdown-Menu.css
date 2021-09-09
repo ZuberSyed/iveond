@@ -12,30 +12,39 @@ body,html{
 .services-technology{
     position: relative;
     width: 100%;
-    /* height: auto; */
 }
 .servicesMain-Head{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.servicesmainHead-Content{
     position: relative;
     width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    height: 100vh;
-    z-index: 50;
+    height: 100%;
+    z-index: 5;
     text-transform: capitalize;
 }
-.servicesMain-Head h2{
+.servicesmainHead-Content h2{
     font-size: 3.8rem;
     width: 60%;
 }
-.servicesMain-Head p{
+.servicesmainHead-Content p{
     font-size: 1.2rem;
     margin-top: 10rem;
     margin-right: 20rem;
     margin-bottom: 2rem;
 }
 .serviceslanding-title{
+   position: relative;
+   width: 100%;
+   height: 100vh;
+}
+.serviceslanding-content{
     position: relative;
     width: 100%;
     text-align: center;
@@ -47,12 +56,46 @@ body,html{
     z-index: 50;
     text-transform: capitalize;
 }
-.serviceslanding-title h2{
+.serviceslanding-content h2{
     font-size: 3.8rem;
 }
-.serviceslanding-title p{
+.serviceslanding-content p{
     margin-bottom: 2rem;
     font-size: 1.4rem;
 }
-
-
+.services-content{
+    padding:2rem 4rem 0rem 4rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+.cards-content{
+    position: relative;
+    /* background-color: var(--background-color); */
+    padding:4rem;
+}
+.services-cards{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 2rem;
+    padding:2rem;
+}
+.services-card{
+    box-shadow: 0px 0px 20px 0px rgba(78, 76, 76, 0.2);
+    padding:1rem;
+    font-size: 1.2rem;
+    /* margin:2rem; */
+    background-color: white;
+}
+.services-card h5{
+    text-align: center;
+    font-size: 1.8rem;
+    margin:1.6rem 0rem;
+    color:var(--background-color);
+}
+.services-card > p{
+    padding:1rem;
+}
+.services-check{
+    line-height: 1.8rem;
+    padding:1rem;
+}
