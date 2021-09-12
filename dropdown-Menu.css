@@ -35,9 +35,7 @@ body,html{
 }
 .servicesmainHead-Content p{
     font-size: 1.2rem;
-    margin-top: 10rem;
-    margin-right: 20rem;
-    margin-bottom: 2rem;
+    margin:10rem 20rem 2rem 0rem;
 }
 .serviceslanding-title{
    position: relative;
@@ -98,4 +96,30 @@ body,html{
 .services-check{
     line-height: 1.8rem;
     padding:1rem;
+}
+@media (max-width:600px) {
+    .servicesmainHead-Content{
+        text-align: center;
+    }
+    .servicesMain-Head{
+        height: 100%;
+    }
+    .servicesmainHead-Content{
+        align-items: center;
+        justify-content: center;
+    }
+    .servicesmainHead-Content h2{
+        font-size: 1.2rem;
+    }
+    .servicesmainHead-Content p{
+        margin:2rem;
+        font-size: 0.8rem;    
+    }
+    .cards-content{
+        padding:1rem;
+    }
+    .services-cards{
+        grid-template-columns: 1fr;
+        padding: 0.2rem;
+    }
 }
