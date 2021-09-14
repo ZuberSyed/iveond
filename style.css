@@ -291,6 +291,7 @@ video{
 }
 .bgnew-tech{
     background-image: url('Images/newAgeTechnologies.jpg');
+    height: 100%;
 }
 .bginfra{
     background-image: url('Images/infrastructure.jpg');
@@ -384,7 +385,7 @@ video{
     width: 100%;
     margin-bottom: 5rem;
 }
-.aboutCareers img{
+.aboutCareers-img{
     position: relative;
     width: 100%;
     height:auto;

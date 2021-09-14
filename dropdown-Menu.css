@@ -298,18 +298,106 @@ body,html{
     display: block;
     margin-bottom: 2rem;
 }
-/* .frontChat{
-    background-color:#030c1b;
-    color: white;
-    padding:2rem;
-    font-size: 2rem;
+.bpa{
+    padding:4rem;
     text-align: center;
+    background-color: var(--background-color);
+    color: white;
+    margin: 2rem 0rem;
 }
-.frontChat span:nth-child(1){
-    font-size: 3.8rem;
-    font-family: 700;
+.bpa-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    width: 100%;
+    text-align:start;
 }
-.frontChat span:nth-child(2){
-    color: teal;
-} */
+.bpa-content p{
+    margin-top: 2rem;
+    width: 45%;
+}
+.border{
+    width: 25rem;
+    height: 0.2rem;
+    background-color: tomato;
+}
+.businessAutomation{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin:4rem 0rem;
+    padding:2rem;
+
+}
+.bA-benefits h4{
+    font-size: 2.4rem;
+}
+.businessAutomation p{
+    font-size: 1.2rem;
+    width: 80%;
+    margin-top: 2rem;
+}
+.businessAutomation img{
+    width:550px ;height:350px; filter:drop-shadow(10px 10px 10px gray);
+}
+.dwUnlocking{
+    position: relative;
+    height: 100vh;
+    margin:4rem 0rem;
+}
+.bgdw2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index:2;
+    height: 100%;
+    width: 100%;
+}
+.bgunlock{
+    background-image: url('Images/digitalW5.png');
+}
+.multiply{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color:rgb(44, 44, 100);
+    mix-blend-mode: multiply;
+    z-index:2;
+    height: 100%;
+    width: 100%;
+    filter:drop-shadow(8px 10px 10px gray);
+}
+.dwUnlock-content{
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-size: 1.2rem;
+    padding: 2rem;
+}
+.dwUnlock-content p{
+    line-height: 1.8rem;
+    margin-bottom: 1.4rem;
+}
+.data{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+}
+.data h6{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.data-card img{
+    width: 50px;
+    height: 50px;
+    filter: invert(100);
+    margin-bottom: 1.8rem;
+}
+
+
+
 
