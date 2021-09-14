@@ -43,35 +43,38 @@ header{
     text-transform: capitalize;
     color: black;
     font-weight: 510;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding:15px;
 }
 .navbar-nav li a:hover{
-    color:var(--colorHover);
+    color:#f58d1d;
 }
 /** Dropdown **/
 .dropdownMenu{
     position: absolute;
-    background-color:#d1edf2c2;
+    background-color:var(--background-color);
     display: none;
-    max-width: 14rem;
+    max-width: 12rem; 
     z-index: 6;
 }
 .dropdownMenu li a{
     display: block;
-    padding:10px;
-    font-size: 1.0rem;
+    padding:0.8rem;
+    font-size: 1.02rem;
+    color: white;
 }
 .dropdownMenu li a:hover{
-    background-color: var(--colorHover);
+    background-color: #f58d1d;
     color: white;
-    /* display: block; */
 }
 .dropdown:hover .dropdownMenu{
     display: block;
 }
 .dropdown:hover .dropdownBtn{
-    color: var(--colorHover);
+    color: #f58d1d;
+}
+.light{
+    color: white;
 }
 /**** SideNavbar ****/
 .sideNavbar{
@@ -113,6 +116,7 @@ header{
     filter: grayscale(100%);
     display: none;
 }
+
 /*//////// Header-Ended /////////*/
 /*              main-section          */
 .main{
@@ -260,9 +264,23 @@ video{
     width:100%;
     max-width: 121rem;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
-    height: 95%;
+    height:95%;
+    z-index: 1;
+}
+.overlay{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    max-width: 121rem;
+    background-color:var(--background-color);
+    mix-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100%;
     z-index: 1;
 }
 .bgAbout{
@@ -284,10 +302,34 @@ video{
     background-image: url('Images/applicationDevelopment.jpg');
 }
 .bgsecurity{
-    background-image: url('Images/cyberSecurity.jpg');
+    background-image: url('Images/security.jpg');
 }
 .bgdigital{
     background-image: url('Images/animatedTxt');
+}
+.bgdw{
+    background-image: url('Images/digitalworkers.jpg');
+    height: 100%;
+}
+.bgpm{
+    background-image: url('Images/ProcessMining.jpg');
+    opacity: 0.8;
+    height: 100%;
+}
+.bgmc{
+    background-image: url('Images/mining-content.jpg');
+}
+.bgchat{
+    background-image: url('Images/chatbot.png');
+    height: 100%;
+}
+.bgnpl{
+    background-image: url('Images/NLP.jpg');
+    height: 100%;
+}
+.bgrpa{
+    background-image: url('Images/rpa.jpg');
+    height: 100%;
 }
 .careers{
     position: relative;
@@ -598,7 +640,6 @@ footer{
 }
 .navigate-links a:hover{
     color: blue;
-    font-weight: 520;
 }
 .social{
     width:25%
@@ -617,7 +658,7 @@ footer{
     color: black;
 }
 .links:hover{
-    opacity:0.8;
+    color: blue;
 }
 .footerEnd{
     border-top:1px solid #888;

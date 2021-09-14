@@ -123,3 +123,193 @@ body,html{
         padding: 0.2rem;
     }
 }
+.process-content{
+    background-color: #030c1b;
+    color: rgb(235, 232, 232);
+    font-size: 1.65rem;
+    padding: 4rem 4rem;
+    word-spacing: 0.2rem;
+    line-height: 2.2rem;
+}
+.processMining-content{
+    position: relative;
+    color: white;
+    text-align: center;
+    padding:2rem 0rem;
+    word-spacing: 0.1rem;
+}
+.miningSubHead{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.miningSubHead h3{
+    margin-bottom: 2rem;
+    font-size: 3.2rem;
+}
+.miningSubHead p{
+    background-color:#030c1b;
+    font-size: 1.6rem;
+    padding: 2rem;
+}
+.mining-content{
+    padding: 2rem;
+    font-size: 1.21rem;
+    margin-bottom: 2rem;
+}
+.mining-about{
+    padding: 1rem;
+    margin:2rem 0rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.6rem;
+}
+.mining-about p{
+    width: 30%;
+    background-color: var(--background-color);
+    color: white;
+    padding:1rem;
+}
+.miningList{
+    line-height: 3.1rem;
+}
+.digitalworkers{
+    position: relative;
+}
+.dw-main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.dwHeading{
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 80%;
+    line-height: 4.5rem;
+}
+.dwHeading p{
+    font-size: 1.2rem;
+}
+.dwHeading h2{
+    font-size: 4.2rem;
+    text-transform: uppercase;
+    word-spacing: 0.4rem;
+}
+.curve{
+    border-bottom-left-radius: 35%;
+    box-shadow: 0px 0px 20px 10px rgba(4, 5, 54, 0.3);
+}
+.chat-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns:2fr 2fr;
+    grid-gap: 2rem;
+    padding: 4rem;
+    font-size: 1.4rem;
+}
+.chat-content p{
+    line-height: 2.4rem;
+}
+.chat-content p:nth-child(1){
+    background-color: var(--background-color);
+    color: white;
+    padding:2rem;
+    font-size: 1.5rem;
+    margin:0rem 5rem;
+}
+.chat-content p:nth-child(1) span{
+    display: block;
+    font-size: 2.25rem;
+    font-weight: 550;
+}
+.chat-content p:nth-child(3){
+    grid-column: 1/5;
+    word-spacing: 0.11rem;
+    margin: 4rem 0rem;
+}
+.chat-content p:nth-child(4){
+    margin-right: 2rem;
+}
+.blueTxt{
+    color: var(--background-color);
+    font-weight: 550;
+}
+.nlp{
+    padding: 4rem;
+}
+.nlp h3{
+    font-size: 2.4rem;
+    margin-bottom: 1.4rem;
+}
+.nlp p{
+    font-size: 1.34rem;
+    font-weight: lighter;
+}
+.nlpApplications{
+    margin-bottom: 4rem;
+}
+.nlpdw{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    line-height: 2.4rem;
+}
+.nlpdw p{
+    width: 45%;
+}
+.bolder{
+    font-weight: bolder;
+}
+.rpa-content{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 2rem;
+    margin-top: 4rem;
+}
+.rpa-content p{
+    font-size: 1.2rem;
+}
+.useRpa{
+    padding:4rem;
+}
+.useRpa h4{
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+.useRpa p{
+    line-height: 2.1rem;
+}
+.bigBolder{
+    font-size: 2.1rem;
+    font-weight: 800;
+    display: block;
+    margin-bottom: 2rem;
+}
+/* .frontChat{
+    background-color:#030c1b;
+    color: white;
+    padding:2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.frontChat span:nth-child(1){
+    font-size: 3.8rem;
+    font-family: 700;
+}
+.frontChat span:nth-child(2){
+    color: teal;
+} */
+
